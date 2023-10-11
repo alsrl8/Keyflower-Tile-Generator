@@ -167,6 +167,26 @@ def handle_create_new_tile():
     exit(0)
 
 
+def handle_merge():
+    merged_data = []
+    data_dir = './data/'
+    files = os.listdir(data_dir)
+    json_files = [file for file in files if os.path.isfile(os.path.join(data_dir, file)) and file.endswith('.json')]
+    print(f'json file num: {len(json_files)}')
+
+    for json_file in json_files:
+        with open(f'{data_dir}{json_file}', 'r') as file:
+            data = json.load(file)
+            merged_data.append(data)
+
+    with open(f'tileinfo.json', 'w') as file:
+        json.dump(merged_data, file, indent=4)
+
+    print('This program will be closed in 5 seconds')
+    time.sleep(5)
+    exit(0)
+
+
 def main():
     clear_console()
     print('This is keyflower tile maker')
@@ -175,10 +195,13 @@ def main():
     clear_console()
     print('Chose option')
     print('1. Create new tile')
+    print('2. Merge data')
     print('9. Exit')
     user_input = int(input())
     if user_input == 1:
         handle_create_new_tile()
+    elif user_input == 2:
+        handle_merge()
     elif user_input == 9:
         print('Program exit')
         time.sleep(3)
