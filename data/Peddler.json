@@ -1,0 +1,25 @@
+{
+    "name": "Peddler",
+    "season": "Spring",
+    "costToUpgrade": {
+        "Gold": 1
+    },
+    "basicTileInfo": {
+        "point": 0,
+        "cost": {
+            "Yellow Meeple": 1
+        },
+        "reward": {
+            "Green Meeple": 1
+        }
+    },
+    "upgradedTileInfo": {
+        "point": 0,
+        "cost": {
+            "Yellow Meeple": 1
+        },
+        "reward": {
+            "Green Meeple": 2
+        }
+    }
+}

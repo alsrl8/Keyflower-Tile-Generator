@@ -1,0 +1,23 @@
+{
+    "name": "Alehouse",
+    "season": "Spring",
+    "costToUpgrade": {
+        "Iron": 1,
+        "Stone": 1,
+        "Wood": 1
+    },
+    "basicTileInfo": {
+        "point": 0,
+        "cost": {},
+        "reward": {
+            "Random Meeple": 1
+        }
+    },
+    "upgradedTileInfo": {
+        "point": 0,
+        "cost": {},
+        "reward": {
+            "Random Meeple": 2
+        }
+    }
+}

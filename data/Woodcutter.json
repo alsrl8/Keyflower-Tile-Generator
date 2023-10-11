@@ -1,0 +1,22 @@
+{
+    "name": "Woodcutter",
+    "season": "Spring",
+    "costToUpgrade": {
+        "Saw": 1
+    },
+    "basicTileInfo": {
+        "point": 0,
+        "cost": {},
+        "reward": {
+            "Wood": 2
+        }
+    },
+    "upgradedTileInfo": {
+        "point": 3,
+        "cost": {},
+        "reward": {
+            "Wood": 1,
+            "Gold": 1
+        }
+    }
+}

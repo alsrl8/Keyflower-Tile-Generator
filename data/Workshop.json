@@ -1,0 +1,23 @@
+{
+    "name": "Workshop",
+    "season": "Spring",
+    "costToUpgrade": {
+        "Any Resource": 2
+    },
+    "basicTileInfo": {
+        "point": 0,
+        "cost": {},
+        "reward": {
+            "Any Resource": 1
+        }
+    },
+    "upgradedTileInfo": {
+        "point": 3,
+        "cost": {},
+        "reward": {
+            "Iron": 1,
+            "Stone": 1,
+            "Wood": 1
+        }
+    }
+}

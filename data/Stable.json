@@ -1,0 +1,24 @@
+{
+    "name": "Stable",
+    "season": "Spring",
+    "costToUpgrade": {
+        "Wood": 1,
+        "Iron": 1
+    },
+    "basicTileInfo": {
+        "point": 0,
+        "cost": {},
+        "reward": {
+            "Transport": 2,
+            "Upgrade": 1
+        }
+    },
+    "upgradedTileInfo": {
+        "point": 5,
+        "cost": {},
+        "reward": {
+            "Transport": 4,
+            "Upgrade": 2
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Apprentice hall",
+    "season": "Spring",
+    "costToUpgrade": {
+        "Wood": 1,
+        "Stone": 1
+    },
+    "basicTileInfo": {
+        "point": 0,
+        "cost": {},
+        "reward": {
+            "Random Skill": 1
+        }
+    },
+    "upgradedTileInfo": {
+        "point": 3,
+        "cost": {},
+        "reward": {
+            "Random Skill": 2
+        }
+    }
+}
